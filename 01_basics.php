@@ -123,6 +123,18 @@
             echo $vari;
             echo "<br>";
             echo "pi value is ", pi;
+
+            $var = 67;
+            echo var_dump($var);
+            echo "<br>";
+
+            $var = 67.1;
+            echo var_dump($var);
+            echo "<br>";
+
+            $var = true;
+            echo var_dump($var);
+            echo "<br>";
         ?>
     </div>
 
