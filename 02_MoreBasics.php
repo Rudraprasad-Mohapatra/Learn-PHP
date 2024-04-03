@@ -55,6 +55,47 @@
             $a++;
         }
 
+        $b = 5;
+        do {
+            if ($b < count($languages)) {
+                echo "<br>The value of language is: ";
+                echo $languages[$b];
+            }
+            echo $b;
+            $b++;
+        } while ($b <= count($languages));
+
+        $c = 20;
+        for ($i=0; $i < $c; $i++) { 
+            echo "The value of a i is :";
+            echo $i;
+        }
+
+        echo "<br>";
+        echo "<br>";
+        echo "The value from foreach loop is ";
+
+        foreach ($languages as $key => $value) {
+            echo "<br>";
+            echo "I am language at ";
+            echo $key;
+            echo " Position and my value is ";
+            echo $languages[$key];
+        }
+
+        // Function in PHP
+        function print5() {
+            echo "FIVE";
+        }
+
+        print5();
+
+        function print_number($number) {
+            echo $number;
+        }
+
+        print_number(45);
+
         ?>
     </div>
 </body>
